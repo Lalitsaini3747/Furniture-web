@@ -246,13 +246,13 @@ header{
     gap: 1rem;
 }
 .footer footer .footer-box h2 span a{
-    color: var(--main-color);
+    color: #0ab524;
 }
 .footer footer .footer-box h2 span a:hover{
-    color: #8fc53d;
+    color: #246e28;
 }
 .footer footer .footer-box ul a:hover{
-    color: var(--main-color);
+    color: #246e28;
 }
 .footer footer .footer-box .social ul li a{
     float: left;
