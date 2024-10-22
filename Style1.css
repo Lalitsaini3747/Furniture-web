@@ -1,0 +1,265 @@
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+*{
+    font-family: "Poppins" , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --text-color:#1f1d1d;
+    --main-color:#9fdf3d;
+}
+section{
+    padding: 50px 10%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 100px;
+    background: #cae3f3;
+}
+.logo{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.logo span{
+    color: var(--main-color);
+}
+.logo:hover{
+    color: red;
+    transform: scale(1.1);
+
+}
+.navbar{
+    position: relative;
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.navbar a:hover{
+    color: rgb(231, 83, 152);
+}
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    /* display: none; */
+}
+.Home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-nordic-minimalist-furniture-banner-design-picture-image_1039338.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.home-text h1{
+    font-size: 2.7rem;
+}
+.home-text p{
+    font-size: 0.938rem;
+    margin: 0.4rem 0 1.8rem;
+}
+.home-text span{
+    color: var(--main-color);
+}
+.btn{
+    padding: 10px 14px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.3rem;
+    font-size: 14px;
+}
+.btn:hover{
+    background: #9fed2b;
+}
+.Shop .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Shop .heading span{
+    color: var(--main-color);
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.Shop .shop-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.Shop .shop-container .box-img{
+    overflow: hidden;
+    border-radius: 18PX;
+}
+.Shop .shop-container .box img{
+    height: 300px;
+    width: 300px;
+    border-radius: 18PX;
+    transition: 1s;
+}
+.Shop .shop-container .box img:hover{
+    transform: scale(1.1);
+}
+.Shop .shop-container .box h3{
+    color: blue;
+}
+.Shop .shop-container .box h4{
+    display: flex;
+    justify-content: end;
+    margin-top: -25px;
+}
+.Shop .shop-container .box .stars{
+    display: flex;
+    justify-content: end;
+    color: var(--main-color);
+}
+.Shop .shop-container .box a span{
+    background: var(--main-color);
+    color: white;
+    border-radius: 14px;
+    padding: 5px;
+    font-weight: 400;
+}
+.Arrival .arrivalhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Arrival .arrivalhead h4{
+    color: rgb(81, 121, 121);
+    font-size: 17px;
+}
+.Arrival .arrivalhead h2{
+    color: var(--main-color);
+    font-size: 30px;
+}
+.Arrival .arrival-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Arrival .arrival-container img{
+    height: 345px;
+    width: 480px;
+    border-radius: 18px;
+}
+.Arrival .arrival-container h3{
+    color: blue;
+}
+.Arrival .arrival-container h4{
+    display: flex;
+    justify-content: end;
+    margin-top: -25px;
+}
+.Arrival .arrival-container .stars{
+    display: flex;
+    justify-content: end;
+    color: var(--main-color);
+}
+.Arrival .arrival-container a{
+    background: var(--main-color);
+    color: white;
+    border-radius: 14px;
+    padding: 5px;
+    font-weight: 400;
+}
+.about .heading{
+    display: flex;
+    justify-content: center;
+}
+.about .heading h3{
+    color: var(--main-color);
+    font-size: 30px;
+}
+.about .about-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.about .about-container .about-img img{
+    height: 400px;
+    border-radius: 18px;
+    width: 550px;
+}
+.about .about-container .about-box{
+    padding: 40px;
+    font-size: 28px;
+}
+.about .about-container .about-box h3 span{
+    color: var(--main-color);
+}
+.about .about-container .about-box p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.partner .heading span{
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+.partner .heading h2{
+    display: flex;
+    justify-content: center;
+}
+.brands-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,auto));
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.brands-container img{
+    width: 100px;
+    filter: grayscale(1);
+}
+.brands-container img:hover{
+    width: 100px;
+    filter: grayscale(0);
+}
+.footer{
+    background: #b8cada;
+}
+.footer footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,auto));
+    gap: 1rem;
+}
+.footer footer .footer-box h2 span a{
+    color: var(--main-color);
+}
+.footer footer .footer-box h2 span a:hover{
+    color: #8fc53d;
+}
+.footer footer .footer-box ul a:hover{
+    color: var(--main-color);
+}
+.footer footer .footer-box .social ul li a{
+    float: left;
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(21, 99, 84);
+}
+.footer footer .footer-box .social ul li a:hover{
+    color: deeppink;
+}
